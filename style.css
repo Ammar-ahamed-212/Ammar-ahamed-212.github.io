@@ -1488,6 +1488,19 @@ padding: 75px 0;
     gap: 45px;
 }
 
+.about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.about-copy h3 {
+    max-width: 100%;
+}
+
+.about-highlights {
+    width: 100%;
+}
+
 .hero-content {
     text-align: center;
     margin: 0 auto;
