@@ -1522,4 +1522,5 @@ padding: 75px 0;
 
 .hero-actions,
 .hero-socials {
-    justify-c
+    justify-content: center;
+}
