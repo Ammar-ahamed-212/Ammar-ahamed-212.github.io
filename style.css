@@ -1359,18 +1359,14 @@ font-size: 10px;
 ========================================= */
 
 .reveal {
-opacity: 0;
-transform: translateY(20px);
-
-transition:
-    opacity 0.65s ease,
-    transform 0.65s ease;
-
+    opacity: 1;
+    transform: none;
+    transition: none;
 }
 
 .reveal.visible {
-opacity: 1;
-transform: translateY(0);
+    opacity: 1;
+    transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
